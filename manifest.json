@@ -1,0 +1,23 @@
+{
+	"name" : "Pomodoro Timer",
+	"description" : "This is Pomodoro Timer. Enjoy and Focus to Work Time.",
+	"version" : "1.0.0",
+	"manifest_version" : 2,
+	"browser_action": {
+		"default_popup": "PomodoroTimer.html",
+		"default_icon": {
+		  "32": "png/pomodorotimer.png"
+		}
+	},
+	"background": {
+		"scripts": ["popup.js"],
+		"persistent": true
+	},
+	"icons": {
+		"48": "png/pomodorotimer.png"
+	},
+	"options_page":"PomodoroTimer.html",
+	"permissions": [
+		"background"
+	]
+}

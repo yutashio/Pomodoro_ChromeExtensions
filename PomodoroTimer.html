@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+	<meta charset="UTF-8">
+	<link rel="stylesheet" href="Design.css">
+	<title>Pomodoro Timer</title>
+</head>
+<body>
+	<script src="popUp.js"></script>
+
+	<div class="sideBySide">
+		<img src="png/pomodorotimer.png" alt="pomodorotimerimage" width="70" heigh="70">
+		<div class="title">
+			<h3>Pomodoro Timer</h3>
+		</div>
+	</div>
+
+		<div class="state">
+			<div id="pomodoroScreenDisplayState"></div>
+		</div>
+
+	<div class="sideBySide">
+		<div class="timerDisplayFont">
+			<div id="pomodoroScreenDisplay">00:00</div>
+		</div>
+		<div class="button">
+			<input type="image" src="png/start.png" id="startbutton" alt="startbuttonimage" width="50" heigh="50">
+			<input type="image" src="png/stop.png" id="stopbutton" alt="stopbuttonimage" width="50" heigh="50">
+		</div>
+	</div>
+
+	<div class="sideBySide">
+		<div class="standardFont">
+			<input type="text" name="timeSettings" value="25" id="timeSettings" size="2">min
+		</div>
+		<div class="miniIcon">
+			<input type="image" src="png/speaker.png" id="speakerbutton" alt="speakerbuttonimage" width="20" heigh="20">
+		</div>
+	</div>
+
+	<script src="backGround.js"></script>
+</body>
+</html>

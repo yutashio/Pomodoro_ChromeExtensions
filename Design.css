@@ -1,0 +1,47 @@
+body{
+	background:black;
+	width: 300px;
+	padding-bottom: 10px;
+}
+
+.title{
+	margin: 10px;
+	color:white;
+}
+
+.state{
+	font-size: 20px;
+	color: white;
+	text-align:center;
+	width: 230px;
+	margin-top: 5px;
+	margin-inline: 10px;
+	background-color: rgba(255, 0, 98, 0.918);
+	border-radius:10px;
+}
+
+.sideBySide{
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.timerDisplayFont{
+	display: flex;
+	flex-wrap: wrap;
+	font-size: 50px;
+	color:white;
+}
+
+.button{
+	margin:10px;
+	padding:auto;
+}
+
+.standardFont{
+	font-size:15px;
+	color:white;
+}
+
+.miniIcon{
+	margin: auto;
+}
